@@ -6,14 +6,14 @@
 /*   By: erijania <erijania@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/22 15:45:21 by erijania          #+#    #+#             */
-/*   Updated: 2024/12/22 16:09:56 by erijania         ###   ########.fr       */
+/*   Updated: 2024/12/22 16:50:16 by erijania         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <cstring>
 
-static void print_argument(char *str)
+void print_argument(char *str)
 {
     while (*str)
         std::cout << (char) std::toupper(*(str++)) << std::ends;
